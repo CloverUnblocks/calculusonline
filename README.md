@@ -1,15 +1,11 @@
-<div align="center">
-    <img src="https://github.com/InterstellarNetwork/Interstellar/assets/89202835/77c63680-544b-42e9-88d6-d288e7681e82">
-    <p>Serving over 7 million users since 2023.<p>
-</div>
 
-## What is Interstellar? 🤔
 
-<p>Interstellar is a web proxy with a clean and sleek ui and easy to use menus. Our goal is to provide the best user experience to everyone.</p>
+## What is Clover? 🤔
+
+<p>Clover is a web proxy with a clean and sleek ui and easy to use menus. Our goal is to provide the best user experience to everyone.</p>
 
 **If you fork this project, consider giving it a star in the original repository!**
 
-**Join Our [Discord Community](https://discord.gg/interstellar)**
 
 ## Features 💻
 
