@@ -35,7 +35,7 @@
         <div class="settings-card">
           <h3>Set Panic Key</h3>
           <p>
-            Quickly open a educational site, when the teacher comes. The panic link is also used to redirect you when
+            What It does is it quickly opens a educational site, when the teacher comes. The panic link is also used to redirect you when
             about:blank windows are opened.
           </p>
           <input type="text" id="eventKeyInput" placeholder="Panic Key" class="key-form" />
@@ -43,7 +43,7 @@
           <button class="key-button" value="Save" onclick="saveEventKey()">Save</button>
         </div>
         <div class="settings-card">
-          <h3>Set Background Image</h3>
+          <h3>Change Background Image</h3>
           <p>Change the site's background image.</p>
           <input type="text" id="background-input" placeholder="Enter image URL" />
           <button class="key-button" id="save-button">Save</button>
@@ -51,14 +51,14 @@
         </div>
         <div class="settings-card">
           <h3>Tab Cloaker</h3>
-          <p>Makes the site look educational.</p>
+          <p>It makes the site look education so the teacher won't suspect a single thing</p>
           <select id="dropdown" onchange="handleDropdownChange(this)">
-            <option value="Classroom">Default</option>
+            <option value="Google Classroom">Default</option>
             <option value="Clever">Clever</option>
             <option value="Canvas">Canvas</option>
             <option value="Edpuzzle">Edpuzzle</option>
             <option value="Google">Google</option>
-            <option value="Classroom">Google Classroom</option>
+            <option value="Goolge Classroom">Google Classroom</option>
             <option value="Drive">Google Drive</option>
             <option value="Gmail">Gmail</option>
             <option value="Khan">Khan Academy</option>
@@ -72,16 +72,16 @@
           <button class="key-button" value="Save" onclick="saveIcon(); saveName(); redirectToMainDomain()">Save</button>
         </div>
         <div class="settings-card">
-          <h3>Particles</h3>
-          <p>Add the particles from the previous version to the new site.</p>
+          <h3>Asthetic Particles</h3>
+          <p>You can add particles to make the site a little more asthetic.</p>
           <label class="switch">
             <input type="checkbox" class="slider-checkbox" id="2" />
             <span class="slider-round"></span>
           </label>
         </div>
         <div class="settings-card">
-          <h3>Themes!</h3>
-          <p>Choose through a selection of themes!</p>
+          <h3>Themes?</h3>
+          <p>Choose different themes!</p>
           <select placeholder="Solid Color Themes" id="dropdown" class="td" onchange="themeChange(this)">
             <option disabled selected>Solid Color Themes</option>
             <option value="d">Default</option>
