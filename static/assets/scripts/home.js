@@ -64,8 +64,7 @@ let splashtext = [
   'Over 0 Users in 2024!',
   'Slowest growing proxy server!',
   'Made by Clove',
-  'Check out Clover Unblocks on youtube
-  :)',
+  'Check out Clover Unblocks on youtube:)',
 ]
 
 document.getElementById('splash').innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
